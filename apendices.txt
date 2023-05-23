@@ -1,0 +1,27 @@
+https://devfinance-agilizei.netlify.app
+
+- Iniciar um novo projeto
+    npm init --yes
+
+- Instalar o pacote cypress no projeto
+    npm install -D cypress
+
+    npm install -D cypress@x.x.x(Caso deseje usar uma versão especifica)
+
+- Criar a estrutura do projeto na pasta e abre o cypress
+    npx cypress open
+
+
+- Pastas
+    fixtures - Dados e arquivos de mocks
+    Integration - Nossos arquivos de testes - .specs.js
+    plugins - configuraçoes de plugins
+    Support - arquivos auxiliadoes e de suporte ao testes
+    screenshots - prints tirados durante os testes
+    videos - videos realizados durante os testes
+
+- Procurando tags
+    para:
+        id -> #
+        class -> .
+        atributos type, steps, name -> [atributos=valor]
